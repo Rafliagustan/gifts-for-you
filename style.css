@@ -135,3 +135,32 @@ button:hover {
         font-size: 12px;
     }
 }
+
+/* Tambahkan Media Queries untuk Desain Responsif */
+@media screen and (max-width: 600px) {
+    .envelope {
+        width: 80%;
+    }
+
+    .flap {
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-bottom: 15px solid #f1e7e4;
+    }
+
+    .letter {
+        padding: 10px;
+    }
+
+    .card {
+        border: 1px solid #ccc;
+    }
+
+    .card.open {
+        height: 250px;
+    }
+
+    button {
+        font-size: 12px;
+    }
+}
